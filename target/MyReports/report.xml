@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="58.021">
+    <testcase classname="Login page Functionality feature" name="Test Login with credentials" time="28.399">
+        <failure message="" type="junit.framework.AssertionFailedError"><![CDATA[Given user is on login page.................................................passed
+When user enter "satishgangwani19" and "Sati1234$"..........................passed
+Then user should be able to login...........................................failed
+And close the browser.......................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at stepDefinition.StepDefinitionFile.user_should_be_able_to_login(StepDefinitionFile.java:34)
+	at ✽.user should be able to login(file:///C:/Users/asus/eclipse-workspace/LoginTestV_1/src/test/feature/RediffloginTest.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Login page Functionality feature" name="Test Login with credentials 2" time="15.077">
+        <failure message="" type="junit.framework.AssertionFailedError"><![CDATA[Given user is on login page.................................................passed
+When user enter "satishgangwani19" and "Sati1234$"..........................passed
+Then user should be able to login...........................................failed
+And close the browser.......................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at stepDefinition.StepDefinitionFile.user_should_be_able_to_login(StepDefinitionFile.java:34)
+	at ✽.user should be able to login(file:///C:/Users/asus/eclipse-workspace/LoginTestV_1/src/test/feature/RediffloginTest.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Login page Functionality feature" name="Test Login with credentials 3" time="14.375">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=101.0.4951.67)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-5025VGK9', ip: '192.168.76.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 714a8210dc4c205b9b6e62420d41ab12&#10;*** Element info: {Using=link text, value=Skip,Go to Inbox}" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user is on login page.................................................passed
+When user enter "satishgangwani19" and "Sati1234"...........................passed
+Then user should be able to login...........................................failed
+And close the browser.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5025VGK9', ip: '192.168.76.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 714a8210dc4c205b9b6e62420d41ab12
+*** Element info: {Using=link text, value=Skip,Go to Inbox}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at objectRepository.LoginObjectFileWith_PF.goToInboxLink(LoginObjectFileWith_PF.java:62)
+	at stepDefinition.StepDefinitionFile.user_should_be_able_to_login(StepDefinitionFile.java:34)
+	at ✽.user should be able to login(file:///C:/Users/asus/eclipse-workspace/LoginTestV_1/src/test/feature/RediffloginTest.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>
